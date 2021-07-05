@@ -73,6 +73,11 @@ img {
 	text-decoration: none;
 	text-transform: uppercase;
 	font-weight: bold;
+	transition: all 0.5s ease;
+}
+
+.link-btn:hover {
+	background: linear-gradient(45deg, blue, deepskyblue);
 }
 
 /* Banner area */
@@ -93,7 +98,7 @@ img {
 
 /* About area */
 .about-area {
-	background: url(./images/bg-object-1.png) no-repeat;
+	background: url(images/bg-object-1.png) no-repeat;
 	background-position: left top;
 }
 .about-area h2 {
@@ -118,10 +123,15 @@ img {
 /* Dream area */
 .dream-area {
 	align-items: center;
-	background: url(./images/bg-object-2.png) no-repeat;
+	background: url(images/bg-object-2.png) no-repeat;
 	background-position: right top;
 }
 
 .dream-area img {
 	width: 80%;
+}
+
+/* Footer */
+footer p {
+	text-align: center;
 }
