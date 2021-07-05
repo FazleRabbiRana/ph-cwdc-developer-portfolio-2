@@ -90,3 +90,23 @@ img {
 	height: 100%;
 	max-width: 80%;
 }
+
+/* About area */
+.about-area h2 {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.experiences {
+	justify-content: space-between;
+}
+
+.single-experience {
+	width: 45%;
+	padding: 25px;
+	border-top: 7px solid;
+	border-left: 7px solid;
+	border-image: linear-gradient(-45deg, blue, deepskyblue);
+	border-image-slice: 1;
+	box-shadow: 5px 5px 25px rgba(0,0,0,0.15);
+}
