@@ -92,6 +92,10 @@ img {
 }
 
 /* About area */
+.about-area {
+	background: url(./images/bg-object-1.png) no-repeat;
+	background-position: left top;
+}
 .about-area h2 {
 	text-align: center;
 	margin-bottom: 50px;
@@ -109,4 +113,15 @@ img {
 	border-image: linear-gradient(-45deg, blue, deepskyblue);
 	border-image-slice: 1;
 	box-shadow: 5px 5px 25px rgba(0,0,0,0.15);
+}
+
+/* Dream area */
+.dream-area {
+	align-items: center;
+	background: url(./images/bg-object-2.png) no-repeat;
+	background-position: right top;
+}
+
+.dream-area img {
+	width: 80%;
 }
